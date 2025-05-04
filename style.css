@@ -1,0 +1,21 @@
+/* Google fonts url */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* color */
+    --clr-primary-violet: hsl(257,40%,49%);
+    --clr-primary-smagenta: hsl(300,69%,71%);
+    /* typography */
+    --font-primary: 'Poppins', sans-serif;
+    --font-secondary: 'Open Sans', sans-serif;
+    --fw-primary: 400;
+    --fw-medium: 600;
+}
+
