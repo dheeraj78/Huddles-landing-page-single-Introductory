@@ -27,7 +27,6 @@
 
 body {
     color: var(--fclr-primary);
-    /* overflow: hidden; */
 }
 
 h1,
@@ -48,8 +47,10 @@ p,
 
 .wrapper {
     background-color: var(--clr-primary-violet);
+    background-image: url('images/bg-mobile.svg');
     width: clamp(20rem, 100%, 90rem);
     padding: var(--page-padding);
+    background-repeat: no-repeat;
 }
 
 .header .logo a img {
@@ -125,7 +126,9 @@ i {
 
     .wrapper {
         padding: var(--main-gap) 0;
-    }
+        background-image: url('images/bg-desktop.svg');
+        background-size: contain;
+     }
 
     .header, .main-content,.social-links-icons {
         width: 90%;
