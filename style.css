@@ -94,8 +94,21 @@ p,
     box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, 0.3);
 }
 
+.register:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.5);
+    background-color: var(--clr-primary-smagenta);
+    color: white;
+}
+
+.social-links-icons div:hover i,.social-links-icons div:hover {
+    color: var(--clr-primary-smagenta);
+    border-color: var(--clr-primary-smagenta);
+    cursor: pointer;
+}
+
 .register:focus {
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .social-links-icons {
